@@ -1,4 +1,29 @@
+/* 
+=========
+google fonts start
+=========
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* 
+=========
+google fonts End
+=========
+*/
+
+/* ==================================================== */
+
+/* 
+=========
+global styles start
+=========
+*/
+
 :root{
+    
+     --ff-primary:"Open Sans", sans-serif;
+
+    /* ===============colors start=============== */
     --clr-hue:0;
     --clr-primary-dark-1:hsl(var(--clr-hue), 40%, 10%);
     --clr-primary-dark-2:hsl(var(--clr-hue), 44%, 15%);
@@ -11,7 +36,6 @@
     --clr-primary-dark-9:hsl(var(--clr-hue), 52%, 35%);
     --clr-primary-dark-10:hsl(var(--clr-hue), 50%, 45%);
    
-    
     --clr-light-hue:63;
     --clr-primary-light-1:hsl(var(--clr-light-hue), 72%, 65%);
     --clr-primary-light-2:hsl(var(--clr-light-hue), 74%, 68%);
@@ -24,4 +48,70 @@
     --clr-primary-light-9:hsl(var(--clr-light-hue), 79%, 88%);
     --clr-primary-light-10:hsl(var(--clr-light-hue), 79%, 93%);
 
+    /* ===============colors ends=============== */
+
 }
+
+::-moz-selection { color: white;  background: var(--clr-primary-dark-5); }
+::selection      { color: white;  background: var(--clr-primary-dark-5); }
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    font-family: var(--ff-primary) ;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1rem;
+}
+p{
+    font-size: 1rem;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (min-width:776px){
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+}
+
+/* 
+=========
+global styles ends
+=========
+*/

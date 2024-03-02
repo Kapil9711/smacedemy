@@ -1,7 +1,11 @@
+import "./styles/Global.css";
+
+import Header from "./Components/header/Header";
+
 function App() {
   return (
     <>
-      <h1>hello from app</h1>
+      <Header />
     </>
   );
 }
