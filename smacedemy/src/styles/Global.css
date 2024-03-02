@@ -1,0 +1,27 @@
+:root{
+    --clr-hue:0;
+    --clr-primary-dark-1:hsl(var(--clr-hue), 40%, 10%);
+    --clr-primary-dark-2:hsl(var(--clr-hue), 44%, 15%);
+    --clr-primary-dark-3:hsl(var(--clr-hue), 48%, 17%);
+    --clr-primary-dark-4:hsl(var(--clr-hue), 50%, 18%);
+    --clr-primary-dark-5:hsl(0, 50%, 20%);
+    --clr-primary-dark-6:hsl(var(--clr-hue), 45%, 25%);
+    --clr-primary-dark-7:hsl(var(--clr-hue), 48%, 30%);
+    --clr-primary-dark-8:hsl(var(--clr-hue), 50%, 33%);
+    --clr-primary-dark-9:hsl(var(--clr-hue), 52%, 35%);
+    --clr-primary-dark-10:hsl(var(--clr-hue), 50%, 45%);
+   
+    
+    --clr-light-hue:63;
+    --clr-primary-light-1:hsl(var(--clr-light-hue), 72%, 65%);
+    --clr-primary-light-2:hsl(var(--clr-light-hue), 74%, 68%);
+    --clr-primary-light-3:hsl(var(--clr-light-hue), 77%, 75%);
+    --clr-primary-light-4:hsl(var(--clr-light-hue), 79%, 77%);
+    --clr-primary-light-5:hsl(63, 79%, 81%);
+    --clr-primary-light-6:hsl(var(--clr-light-hue), 79%, 82%);
+    --clr-primary-light-7:hsl(var(--clr-light-hue), 79%, 84%);
+    --clr-primary-light-8:hsl(var(--clr-light-hue), 79%, 85%);
+    --clr-primary-light-9:hsl(var(--clr-light-hue), 79%, 88%);
+    --clr-primary-light-10:hsl(var(--clr-light-hue), 79%, 93%);
+
+}
