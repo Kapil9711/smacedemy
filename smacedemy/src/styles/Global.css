@@ -52,8 +52,8 @@ global styles start
 
 }
 
-::-moz-selection { color: white;  background: var(--clr-primary-dark-5); }
-::selection      { color: white;  background: var(--clr-primary-dark-5); }
+::-moz-selection { color: var(--clr-primary-light-10);  background: var(--clr-primary-dark-5); }
+::selection      { color:var(--clr-primary-light-10);  background: var(--clr-primary-dark-5); }
 
 *,*::after,*::before{
     box-sizing: border-box;
@@ -95,6 +95,11 @@ a{
     text-decoration: none;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+}
+
 @media (min-width:776px){
     h1{
         font-size: 4rem;
@@ -113,5 +118,20 @@ a{
 /* 
 =========
 global styles ends
+=========
+*/
+
+/* 
+=========
+global class and ids start
+=========
+*/
+#root{
+    height: inherit;
+}
+
+/* 
+=========
+global class and ids end
 =========
 */
