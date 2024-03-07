@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Greetings from "./Greetings";
+import Cards from "./Cards";
 // =============
 // styled Component
 // =============
@@ -17,6 +18,7 @@ function About() {
   return (
     <Section id="about">
       <Greetings />
+      <Cards />
     </Section>
   );
 }
